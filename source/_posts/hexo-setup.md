@@ -40,7 +40,9 @@ git init
 
 回到專案資料夾
 
+```bash
 git remote add origin https://github.com/<這邊是你的帳號>/blog.git
+```
 
 調整 _config.yml 的內容，約第 97 行
 
@@ -66,6 +68,8 @@ npm run start
 ```bash
 hexo new <檔案名稱>
 ```
+
+會自動產生 .md 檔到 source -> _posts 資料夾裡頭
 
 文章打完後，就一行剛剛特別寫的 `npm run start`
 
