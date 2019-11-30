@@ -40,11 +40,13 @@ git init
 
 回到專案資料夾
 
+這邊 git remote add 的路徑是要放未編譯的檔案
+
 ```bash
 git remote add origin https://github.com/<這邊是你的帳號>/blog.git
 ```
 
-調整 _config.yml 的內容，約第 97 行
+調整 _config.yml 的內容，約第 97 行，這邊設定的是編譯後的靜態檔案部屬的位置
 
 ```yml
 deploy:
