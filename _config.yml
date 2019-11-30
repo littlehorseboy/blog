@@ -96,6 +96,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/littlehorseboy/blog.git
-  branch: gh-pages
+  repo: https://github.com/littlehorseboy/littlehorseboy.github.io.git
+  branch: master
 
