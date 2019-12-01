@@ -1,14 +1,14 @@
 ---
-title: hexo 官網教學是不是有一點雷
+title: hexo 官網教學架上 github pages 的說明是不是有一點雷
 date: 2019-12-01 01:15:42
 tags: hexo
 ---
 
-## hexo 官網教學是不是有一點雷
+## 原先照著 hexo 官網，也就是下面那個連結的說明過程總是失敗 XD
 
 https://hexo.io/docs/github-pages
 
-上面連結那頁的內容似乎根本不能用，搭配 Travis CI 很棒棒是沒錯，但是我沒辦法做到第 10 點將 GitHub Pages 的 Source 給切換去用 gh-pages branch
+搭配 Travis CI 很棒棒是沒錯，但是我沒辦法做到第 10 點將 GitHub Pages 的 Source 給切換去用 gh-pages branch
 
 也可能是我有什麼環節弄錯，總之最後我用以下的方式來做
 
@@ -17,52 +17,57 @@ https://hexo.io/docs/github-pages
 ```bash
 npm install -g hexo-cli
 
-d:
-
 hexo init blog
 
 cd blog
 
 npm i
 
-git init
+# 這邊特別要記得下載這個套件，才有辦法讓 hexo 正常的執行 git 指令
+npm i hexo-deployer-git
 ```
 
 ---
 
-這時到 github 蓋一個 `<這邊是你的帳號>.github.io` 的 Repository
+這時到 github 蓋一個 `<這邊是輸入你的帳號>.github.io` 的 Repository
+
+![](https://i.imgur.com/PjFgMVE.png)
 
 也蓋一個 `blog` 的 Repository
 
-共兩個，一個放編譯後的靜態檔案(`<這邊是你的帳號>.github.io`)，一個放未編譯前的檔案(`blog`)
+![](https://i.imgur.com/g2zhYt4.png)
+
+共兩個 Repository，一個放編譯後的靜態檔案(`<這邊是輸入你的帳號>.github.io`)，一個放未編譯前的檔案(`blog`)
 
 ---
 
 回到專案資料夾
 
-這邊 git remote add 的路徑是要放未編譯的檔案
+git remote add 的路徑是要放未編譯的檔案(`blog`)
 
 ```bash
-git remote add origin https://github.com/<這邊是你的帳號>/blog.git
+git init
+
+git remote add origin https://github.com/<這邊是輸入你的帳號>/blog.git
 ```
 
-調整 _config.yml 的內容，約第 97 行，這邊設定的是編譯後的靜態檔案部屬的位置
+調整 _config.yml 的內容，約第 97 行，這邊設定的是編譯後的靜態檔案部屬的位置(`<這邊是輸入你的帳號>.github.io`)
 
 ```yml
 deploy:
   type: git
-  repo: https://github.com/<這邊是你的帳號>/<這邊是你的帳號>.github.io.git
+  repo: https://github.com/<這邊是輸入你的帳號>/<這邊是輸入你的帳號>.github.io.git
   branch: master
 ```
 
 然後到 package.json 增加一個新的 script，把 清除檔案 + 產生靜態檔案 + 部屬到目標 的指令合成一行
 
 ```json
-"start": "hexo clean && hexo generate && hexo deploy"
+"release": "hexo clean && hexo generate && hexo deploy"
 ```
 
 ```bash
-npm run start
+npm run release
 ```
 
 新增文章時要輸入
@@ -73,6 +78,8 @@ hexo new <檔案名稱>
 
 會自動產生 .md 檔到 source -> _posts 資料夾裡頭
 
-文章打完後，就一行剛剛特別寫的 `npm run start`
+文章打完後，就一行剛剛特別寫的 `npm run release`
 
 就會依照 _config.yml 寫的目標來 deploy 上靜態檔案
+
+記得也要將未編譯的原始檔版控，方便查驗
