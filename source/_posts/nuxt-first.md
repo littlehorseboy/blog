@@ -1,5 +1,5 @@
 ---
-title: nuxt 實作筆記，架到 github pages
+title: nuxt 實作筆記，從 create-nuxt-app 到架上 github pages
 date: 2019-12-06 09:39:15
 tags:
 - nuxt
