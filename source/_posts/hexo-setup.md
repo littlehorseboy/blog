@@ -1,7 +1,8 @@
 ---
 title: hexo 官網教學架上 github pages 的說明是不是有一點雷
 date: 2019-12-01 01:15:42
-tags: hexo
+tags:
+- hexo
 ---
 
 ## 原先照著 hexo 官網，也就是下面那個連結的說明過程總是失敗 XD

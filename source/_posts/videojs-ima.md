@@ -1,7 +1,9 @@
 ---
 title: videojs-ima 實作筆記
 date: 2019-12-03 17:51:04
-tags: hexo
+tags:
+- google
+- video
 ---
 
 # videojs-ima 是用來讓播放器能方便引入 google 圖片或影片的廣告的函式庫

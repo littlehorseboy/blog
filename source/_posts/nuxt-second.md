@@ -1,7 +1,8 @@
 ---
 title: nuxt 實作筆記，掛上 eslint-config-airbnb-base
 date: 2019-12-06 10:50:26
-tags: hexo
+tags:
+- nuxt
 ---
 
 ## 首先一定要記得 settings.json 要加入 `vue`
