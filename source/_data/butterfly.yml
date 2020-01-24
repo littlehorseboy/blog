@@ -73,7 +73,7 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -162,7 +162,7 @@ addThis:
 
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: facebook,linkedin,twitter,wechat,weibo,qq
 
 # https://www.addtoany.com/
 addtoany:
@@ -244,7 +244,7 @@ ICP:
 baidu_analytics:
 
 # Google Analytics
-google_analytics:
+google_analytics: UA-154133917-1
 
 # Tencent_analytics ID
 tencent_analytics:
@@ -278,12 +278,12 @@ qihu_site_verification:
 # 友情鏈接界面設置
 Flink:
   headline: 友情鏈接
-  info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
-  address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
-  comment: 如果需要交換友鏈,請留言
+  info_headline: 我的 Blog 資料
+  name: Blog 名字： 小馬彬
+  address: Blog 地址： https://littlehorseboy.github.io//
+  avatar: Blog 頭像： https://i.imgur.com/Rj1O5nU.png
+  info: Blog 簡介： 邁向學習 UX 之路
+  comment: 如果需要交換友鏈，請留言
 
 # 打賞按鈕
 reward:
@@ -344,7 +344,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啓一個
@@ -453,8 +453,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 一個菜鳥前端工程師
 
 ####    側邊欄    ####
 #-------------------------------------
