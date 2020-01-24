@@ -32,6 +32,8 @@ npm i hexo-deployer-git
 
 ---
 
+## github 操作步驟
+
 這時到 github 蓋一個 `<這邊是輸入你的帳號>.github.io` 的 Repository
 
 ![](https://i.imgur.com/PjFgMVE.png)
@@ -40,13 +42,18 @@ npm i hexo-deployer-git
 
 ![](https://i.imgur.com/g2zhYt4.png)
 
-共兩個 Repository，一個放編譯後的靜態檔案(`<這邊是輸入你的帳號>.github.io`)，一個放未編譯前的檔案(`blog`)
+共兩個 Repository
+
+* 一個放`編譯後的靜態檔案`(`<這邊是輸入你的帳號>.github.io`)
+* 一個放`未編譯前的檔案`(`blog`)
 
 ---
 
+## 專案資料夾操作步驟
+
 回到專案資料夾
 
-git remote add 的路徑是要放未編譯的檔案(`blog`)
+git remote add 的路徑是要放`未編譯的檔案`(`blog`)
 
 ```bash
 git init
@@ -54,7 +61,7 @@ git init
 git remote add origin https://github.com/<這邊是輸入你的帳號>/blog.git
 ```
 
-調整 _config.yml 的內容，約第 97 行，這邊設定的是編譯後的靜態檔案部屬的位置(`<這邊是輸入你的帳號>.github.io`)
+調整 _config.yml 的內容，約第 97 行，此時設定的是編譯後的靜態檔案部屬的位置(`<這邊是輸入你的帳號>.github.io`)
 
 ```yml
 deploy:
@@ -73,6 +80,12 @@ deploy:
 npm run release
 ```
 
+此後打完文章只要一行指令就可以等他產生靜態檔案及丟上 github.io
+
+---
+
+## 新增文章操作步驟
+
 新增文章時要輸入
 
 ```bash
@@ -85,4 +98,4 @@ hexo new <檔案名稱>
 
 就會依照 _config.yml 寫的目標來 deploy 上靜態檔案
 
-記得也要將未編譯的原始檔版控，方便查驗
+成功佈署後記得也要將未編譯的原始檔進行版控
