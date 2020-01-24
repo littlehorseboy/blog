@@ -1,6 +1,9 @@
 ---
 title: Apache 及 PHP 環境架設
 date: 2019-12-09 11:24:37
+categories:
+- apache
+- php
 tags:
 - apache
 - php

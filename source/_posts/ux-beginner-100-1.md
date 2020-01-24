@@ -1,6 +1,9 @@
 ---
 title: 你的觀點 | 使用者觀點（心態）的三個 `What`
 date: 2019-12-08 20:46:54
+categories:
+- UX
+- ux-beginner-100
 tags:
 - UX
 - ux-beginner-100

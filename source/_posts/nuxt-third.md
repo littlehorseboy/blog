@@ -1,8 +1,12 @@
 ---
 title: nuxt 實作筆記，加上 scss
 date: 2019-12-06 14:52:40
+categories:
+- nuxt
+- scss
 tags:
 - nuxt
+- scss
 ---
 
 其實有一點簡單，就安裝完直接改 `style` 即可 XD
@@ -11,7 +15,8 @@ tags:
 npm i -D node-sass sass-loader
 ```
 
-```diff
-- <style>
-+ <style lang="scss">
+```html
+<style>
+/* 增加 lang 屬性 */
+<style lang="scss">
 ```

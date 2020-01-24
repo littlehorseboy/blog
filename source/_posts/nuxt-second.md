@@ -1,8 +1,12 @@
 ---
 title: nuxt 實作筆記，掛上 eslint-config-airbnb-base
 date: 2019-12-06 10:50:26
+categories:
+- nuxt
+- ESLint
 tags:
 - nuxt
+- ESLint
 ---
 
 ## 首先一定要記得 settings.json 要加入 `vue`

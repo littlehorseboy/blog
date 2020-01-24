@@ -1,6 +1,8 @@
 ---
 title: 最近讀完了一本 UX 的新手書（不是分享 XD）
 date: 2020-01-06 20:50:54
+categories:
+- UX
 tags:
 - UX
 ---

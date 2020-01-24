@@ -1,6 +1,9 @@
 ---
 title: PHP 開發環境還有一個重要的東西還沒裝，那就是 Composer
 date: 2019-12-11 09:13:47
+categories:
+- composer
+- php
 tags:
 - composer
 - php

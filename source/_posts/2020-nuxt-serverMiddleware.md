@@ -1,8 +1,12 @@
 ---
 title: Nuxt.js 利用 serverMiddleware 讓 page.vue 接 POST 來的資料
 date: 2020-01-15 21:00:50
+categories:
+- nuxt
+- serverMiddleware
 tags:
 - nuxt
+- serverMiddleware
 ---
 
 Hi，大家好，我是小馬彬，最近在公司都在玩 Nuxt.js，其實得說大部分的需求在官方文檔上都能找到解方，主要要區分好組件生命週期是後端渲染的部分還是前端渲染的部分，不過這次會寫這篇的主要目的就是因為標題上的敘述
@@ -11,7 +15,9 @@ Hi，大家好，我是小馬彬，最近在公司都在玩 Nuxt.js，其實得�
 
 ---
 
-2020/1/16 修正 2020/1/15 所述內容，其實可以直接用 Nuxt 提供的 context 來得到 POST 來的資料，根本不必特別玩 serverMiddleware 啦，不過就當補充知識吧！
+## 2020/1/16 修正 2020/1/15 所述內容
+
+其實可以直接用 Nuxt 提供的 context 來得到 POST 來的資料，根本不必特別玩 serverMiddleware 啦，不過就當補充知識吧！
 
 直接在 pages/index.vue 即可
 
@@ -23,7 +29,7 @@ asyncData({ req }) {
 
 ---
 
-以下為 2020/1/15 撰寫
+## 以下為 2020/1/15 撰寫
 
 起初還以為可以直接利用 Nuxt 提供的 context 來得到 POST 來的資料
 
@@ -38,6 +44,8 @@ asyncData({ req }) {
 後來 google 到 serverMiddleware 這個解方，它可以將一隻類似 node.js http.createServer 的 function 掛給某一個 path 來使用
 
 ---
+
+## serverMiddleware
 
 筆者當初創建 Nuxt 專案時沒有使用 express，所以以下紀錄的方式是一般的 node.js 使用方式
 

@@ -1,8 +1,12 @@
 ---
 title: nuxt 實作筆記，從 create-nuxt-app 到架上 github pages
 date: 2019-12-06 09:39:15
+categories:
+- nuxt
+- github pages
 tags:
 - nuxt
+- github pages
 ---
 
 因為工作上的需要，開發開始研究 nuxt ssr

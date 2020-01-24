@@ -1,15 +1,15 @@
 ---
 title: Javascript 的 Boolean 居然能這樣用（搭配 Array）
 date: 2020-01-24 21:28:19
+categories:
+- javascript
 tags:
 - javascript
 ---
 
-## Boolean
-
 Hi，大家新年快樂，我是小馬彬，趁著除夕夜深人靜時來把最近發現的特別 JS 用法整理一下，Javascript 的 Boolean 居然能夠直接用在 Array.filter() 內的函式
 
-### filter
+## filter
 
 ```javascript
 ['1', '', '3'].filter(Boolean); // ['1', '3']
@@ -27,31 +27,31 @@ Hi，大家新年快樂，我是小馬彬，趁著除夕夜深人靜時來把最
 
 順便好奇其他常用的 Array 函式在遇到 Boolean 會發生什麼事
 
-### map
+## map
 
 遇到 map 就會轉成 true 或 false
 
 ![](https://i.imgur.com/SWJQcuV.png)
 
-### find
+## find
 
 遇到 find 就會取得第一個比對後產生 true 的值
 
 ![](https://i.imgur.com/RNTbcjY.png)
 
-### findIndex
+## findIndex
 
 遇到 findIndex 就會取得第一個比對後產生 true 的 index
 
 ![](https://i.imgur.com/JUR615T.png)
 
-### every
+## every
 
 every 比對陣列內要全為 true，否則為 false
 
 ![](https://i.imgur.com/Z1A4SMg.png)
 
-### some
+## some
 
 some 只要一個值為 true，最終就會回傳 true
 

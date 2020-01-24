@@ -1,6 +1,10 @@
 ---
 title: 設定 Xdebug，最後用 VSCode 的偵錯工具啟動
 date: 2019-12-09 21:10:41
+categories:
+- apache
+- php
+- xdebug
 tags:
 - apache
 - php
