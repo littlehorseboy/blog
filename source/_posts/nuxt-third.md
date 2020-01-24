@@ -5,7 +5,7 @@ tags:
 - nuxt
 ---
 
-其實有一點簡單，就安裝完直接改 `<style>` 即可 XD
+其實有一點簡單，就安裝完直接改 `style` 即可 XD
 
 ```bash
 npm i -D node-sass sass-loader

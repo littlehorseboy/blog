@@ -1,6 +1,9 @@
 ---
 title: videojs-ima 實作筆記
 date: 2019-12-03 17:51:04
+categories:
+- google
+- video
 tags:
 - google
 - video
@@ -35,7 +38,7 @@ npm i videojs-ima
 
 ## html 全部裝起來的部分
 
-最後寫上 `<video>` 並指定 source
+最後寫上 `video` 並指定 source
 
 script 初始化 videojs 套上 ima 廣告
 
