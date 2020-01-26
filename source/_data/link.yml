@@ -1,27 +1,22 @@
 class:
+  class_name: 碼農訓練村
+  link_list:
+    1:
+      name: 神Q超人
+      link: https://medium.com/@GQSM
+      avatar: https://miro.medium.com/fit/c/128/128/2*bGuyonb7ECJu-p-KwNmKbg.png
+      descr: 82 年次，單純相信努力不會騙人
+    2:
+      name: WadeHuangtw1993
+      link: https://wadehuang1993.github.io/blog/
+      avatar: https://wadehuang1993.github.io/blog/images/avatar.jpg
+      descr: 來自南部的菜鳥 RD  
+
+class2:
   class_name: 友情鏈接
   link_list:
     1:
-      name: xxx
+      name: StarBugs Weekly 技術專欄
       link: https://blog.xxx.com
-      avatar: https://cdn.xxxxx.top/avatar.png
-      descr: xxxxxxx
-    2:
-      name: xxxxxx
-      link: https://www.xxxxxxcn/
-      avatar: https://xxxxx/avatar.png
-      descr: xxxxxxx  
-
-class2:
-  class_name: 鏈接無效
-  link_list:
-    1:
-      name: 夢xxx
-      link: https://blog.xxx.com
-      avatar: https://xxxx/avatar.png
-      descr: xxxx
-    2:
-      name: xx
-      link: https://www.axxxx.cn/
-      avatar: https://x
-      descr: xx
+      avatar: https://miro.medium.com/fit/c/160/160/1*Kma_T7CmrGKYhgVzjiLiXA.jpeg
+      descr: 一群技術人想寫出一些好文章，所建立的技術專欄。每週二會發佈技術週刊，分享科技新知，歡迎大家訂閱 https://weekly.starbugs.dev/
