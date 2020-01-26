@@ -200,13 +200,13 @@ laibili:
   uid:
 
 gitalk:
-  enable: false
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  language: # en , zh-CN , zh-TW
+  enable: true
+  client_id: a9d83a868e19bdb04bb4
+  client_secret: 5a4b2ce241640360cd486a32500550ecca67e8b1
+  repo: littlehorseboy.github.io
+  owner: littlehorseboy
+  admin: littlehorseboy
+  language: zh-TW
   count: false # top_img顯示評論數
 
 # valine comment system. https://valine.js.org
