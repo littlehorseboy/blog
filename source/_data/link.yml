@@ -1,4 +1,13 @@
 class:
+  class_name: 碼農之神（村長）
+  link_list:
+    1:
+      name: 達人
+      link: https://blog.xxx.com
+      avatar: https://scontent.ftpe1-1.fna.fbcdn.net/v/t31.0-1/p960x960/13442504_1276479469036653_6970186891458966574_o.jpg?_nc_cat=106&_nc_ohc=FCNBjdnj2E0AX-8OuCB&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=a83c62344acc58423941f780bd889b05&oe=5ED6F456
+      descr: 如神一般的男人
+
+class2:
   class_name: 碼農訓練村
   link_list:
     1:
@@ -10,13 +19,18 @@ class:
       name: WadeHuangtw1993
       link: https://wadehuang1993.github.io/blog/
       avatar: https://wadehuang1993.github.io/blog/images/avatar.jpg
-      descr: 來自南部的菜鳥 RD  
+      descr: 來自南部的菜鳥 RD
+    3:
+      name: Yee
+      link: https://yeeinhole.github.io/
+      avatar: https://yeeinhole.github.io/assets/images/yee.jpeg
+      descr: Hi 我是 Yee，常常不小心就掉進坑中…，後端工程師 X 數據分系
 
-class2:
+class3:
   class_name: 友情鏈接
   link_list:
     1:
       name: StarBugs Weekly 技術專欄
-      link: https://blog.xxx.com
+      link: https://weekly.starbugs.dev/
       avatar: https://miro.medium.com/fit/c/160/160/1*Kma_T7CmrGKYhgVzjiLiXA.jpeg
       descr: 一群技術人想寫出一些好文章，所建立的技術專欄。每週二會發佈技術週刊，分享科技新知，歡迎大家訂閱 https://weekly.starbugs.dev/
