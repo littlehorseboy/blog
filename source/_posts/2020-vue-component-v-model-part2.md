@@ -2,6 +2,7 @@
 title: Vue 子組件更新父組件資料的『五種』方式（Part 2）
 date: 2020-02-08 14:53:03
 tags:
+- w3HexSchool
 - vue
 - component
 cover: https://vuejs.org/images/logo.png
