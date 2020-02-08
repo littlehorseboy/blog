@@ -1,6 +1,8 @@
 ---
 title: Vue 子組件更新父組件資料的『五種』方式（Part 1）
 date: 2020-02-02 12:38:02
+categories:
+- vue
 tags:
 - vue
 - component
