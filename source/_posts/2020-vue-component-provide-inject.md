@@ -11,7 +11,9 @@ tags:
 cover: https://vuejs.org/images/logo.png
 ---
 
-Hi，大家好，我是小馬彬，前兩篇展示了子組件如何有效的將資料更新回父組件，如果還沒看過各種不同的父子組件溝通的方式，可以先看看上一篇『[Vue 子組件更新父組件資料的『五種』方式（Part 2）](https://littlehorseboy.github.io/2020/02/08/2020-vue-component-v-model-part2/)』，這篇要來介紹 provide / inject，它主要的功能就是能讓跨組件的資料傳遞更為方便，如果子組件想要得到父組件的資料，就得用 props 來接
+Hi，大家好，我是小馬彬，前兩篇展示了子組件如何有效的將資料更新回父組件，如果還沒看過各種不同的父子組件溝通的方式，可以先看看上一篇『[Vue 子組件更新父組件資料的『五種』方式（Part 2）](https://littlehorseboy.github.io/2020/02/08/2020-vue-component-v-model-part2/)』，這篇要來介紹 provide / inject，它主要的功能就是能讓跨組件的資料傳遞更為方便
+
+如果子組件想要得到父組件的資料，就得用 props 來接，那如果得跨越很多層才到目標的組件，那中間每一層組件都得寫上 props 的程式碼來向下傳，有時候就會覺得中間的組件明明沒用到，程式碼已經一大堆，卻又要每一個都多補上這一段實在很不划算
 
 ## 一般 props 的方式向子組件傳遞資料
 
@@ -78,13 +80,26 @@ app
 
 回到 Vue，現在筆者不想要經過這麼多組件才能得到 list，這時就能用上 provide / inject 的方式來傳遞
 
+專案結構與剛剛一樣
+
+```
+app
+├── pages
+│   └── Page.vue
+├── components
+│   ├── ListContainer.vue
+│   ├── ListSection.vue
+│   └── List.vue
+└── App.vue
+```
+
 *Page.vue*
 
 將 this.list 裝到 `provide()` 中
 
 ![](https://i.imgur.com/lDEEshX.png)
 
-就能將資料給放在了大家都能輕鬆拿得到的地方
+這樣資料就能讓子組件輕鬆的拿到
 
 以下 ListContainer.vue 及 ListSection.vue 就沒有寫任何 props
 
