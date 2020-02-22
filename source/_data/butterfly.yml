@@ -98,7 +98,7 @@ katex:
 
 # Post info settings
 # ---------------
-avatar: /img/avatar.png
+avatar: https://avatars0.githubusercontent.com/u/16015679
 
 # the banner image of index
 index_img: https://images.unsplash.com/photo-1485029975821-13e3a2112403?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600
@@ -280,8 +280,8 @@ Flink:
   headline: 友情鏈接
   info_headline: 我的 Blog 資料
   name: Blog 名字： 小馬彬
-  address: Blog 地址： https://littlehorseboy.github.io//
-  avatar: Blog 頭像： https://i.imgur.com/Rj1O5nU.png
+  address: Blog 地址： https://littlehorseboy.github.io/
+  avatar: Blog 頭像： https://avatars0.githubusercontent.com/u/16015679
   info: Blog 簡介： 邁向學習 UX 之路
   comment: 如果需要交換友鏈，請留言
 
