@@ -7,6 +7,7 @@ categories:
 tags:
 - composer
 - php
+cover: https://getcomposer.org/img/logo-composer-transparent3.png
 ---
 
 ## Composer 下載

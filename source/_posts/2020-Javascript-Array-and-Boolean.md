@@ -5,6 +5,7 @@ categories:
 - javascript
 tags:
 - javascript
+cover: https://ms314006.github.io/static/e87971a563d150dcfc0d784bf20dbb37/0e6ff/JavaScript.jpg
 ---
 
 Hi，大家新年快樂，我是小馬彬，趁著除夕夜深人靜時來把最近發現的特別 JS 用法整理一下，Javascript 的 Boolean 居然能夠直接用在 Array.filter() 內的函式

@@ -7,6 +7,7 @@ categories:
 tags:
 - nuxt
 - scss
+cover: https://nuxtjs.org/logos/nuxt.svg
 ---
 
 其實有一點簡單，就安裝完直接改 `style` 即可 XD

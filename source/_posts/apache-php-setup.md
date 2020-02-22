@@ -7,6 +7,7 @@ categories:
 tags:
 - apache
 - php
+cover: https://www.php.net/images/logos/php-logo.svg
 ---
 
 ## Apache 2.4.41 下載

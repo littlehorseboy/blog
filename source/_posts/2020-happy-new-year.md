@@ -3,6 +3,7 @@ title: 新年快樂，不過卻臥病在床的度過
 date: 2020-01-01 21:59:15
 tags:
 - 心路歷程
+cover: https://images.unsplash.com/photo-1576460483900-dd52c95af30f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
 ---
 
 ### 大家好啊，新年快樂

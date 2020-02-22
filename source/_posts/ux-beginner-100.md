@@ -7,6 +7,7 @@ categories:
 tags:
 - UX
 - ux-beginner-100
+cover: https://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/073/32/0010733244.jpg&v=58187cbc&w=348&h=348
 ---
 
 ## LESSON 1 - 什麼是 UX？

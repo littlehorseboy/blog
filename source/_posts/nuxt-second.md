@@ -7,6 +7,7 @@ categories:
 tags:
 - nuxt
 - ESLint
+cover: https://nuxtjs.org/logos/nuxt.svg
 ---
 
 ## 首先一定要記得 settings.json 要加入 `vue`

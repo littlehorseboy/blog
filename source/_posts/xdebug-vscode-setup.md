@@ -9,6 +9,7 @@ tags:
 - apache
 - php
 - xdebug
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Xdebug_Logo.svg/125px-Xdebug_Logo.svg.png
 ---
 
 ## Xdebug 下載
