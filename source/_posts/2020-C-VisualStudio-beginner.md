@@ -1,5 +1,5 @@
 ---
-title: C#，我又來找你玩了！ - Visual Studio 重新認識
+title: C#，又來找你玩了！ - Visual Studio 重新認識
 date: 2020-02-22 13:06:58
 categories:
 - w3HexSchool
