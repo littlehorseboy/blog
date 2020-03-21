@@ -11,7 +11,6 @@ tags:
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
 ---
 
-
 Hi，大家好，我是小馬彬，今天要繼續來練習 [NODESCHOOL](https://nodeschool.io/zh-tw/) 的 learnyounode 所提供的題目，如果不知道題目是怎麼得來的朋友們，可以到我的這篇文章 [learnyounode (Exercise 1 of 13)](https://littlehorseboy.github.io/2020/03/13/2020-learnyounode-exercise-1/) 看看
 
 那麼就直接開始練習後續的題目吧
