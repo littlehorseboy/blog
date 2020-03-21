@@ -4,4 +4,12 @@ node_js:
 install:
   - npm install
 script:
-  - npm run release
+  - npm run clean
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: public
+  repo: littlehorseboy/littlehorseboy.github.io
+  target_branch: master
