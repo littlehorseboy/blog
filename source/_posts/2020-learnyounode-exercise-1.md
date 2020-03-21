@@ -37,7 +37,6 @@ https://nodeschool.io/zh-tw/
 
 ![](https://i.imgur.com/aklw3pr.png)
 
-
 learnyounode 是 .ps1 檔，筆者爬文後知道得設定了 `Set-ExecutionPolicy RemoteSigned`（使用此設置需要以系統管理員身分）後就可以正常執行程式，更詳細的設定參數可以參考 [官方 Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7)
 
 ## 執行及切換 Language
