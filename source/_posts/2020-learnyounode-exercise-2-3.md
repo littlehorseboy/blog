@@ -86,7 +86,7 @@ console.log(
 
 * 要使用 Node.js 內建的 fs 核心模組來進行檔案系統的操作
 * 需求要用『同步』方式處理檔案，用 `fs.readFileSync` 而非 ~~`fs.readFile`~~
-* 用 `fs.readFileSync` 讀取檔案回返回一個完整檔案內容的 `Buffer` 物件
+* 用 `fs.readFileSync` 讀取檔案會返回一個完整檔案內容的 `Buffer` 物件
 * Buffer 可以用本身的 toString() 將物件內容轉換成可見字串
 * 要讀取換行符號並得知行數可以用 `split('\n')` 切割文字產生陣列，再計算陣列的長度就有可能是正確答案了
 * 輸入執行程式的指令時的 **第一個參數** 是檔案路徑
