@@ -35,8 +35,6 @@ service 產生後的初始狀態就是這樣，帶有 @Injectable 的 class，�
 
 ### 對同步執行的 pure function 回傳值進行測試
 
-這個 function 就是同步的執行且 return 值
-
 在 value.service.ts 撰寫一個 method
 
 ```typescript=
@@ -76,7 +74,7 @@ service 產生後的初始狀態就是這樣，帶有 @Injectable 的 class，�
 
 因為是非同步回傳的行為，必須要在測試的函式中使用 `done: DoneFn` 這個參數進行 callback 呼叫來告知測試要結束的時機
 
-測試 Observable 就直接訂閱 subscribe 下去，在 done、error 或 complete 的函式進行測試
+測試 Observable 就直接訂閱 subscribe 下去，在 done、error 或 complete 的函式中進行測試
 
 ```typescript=
   it('getObservableValue should return value from observable', (done: DoneFn) => {
@@ -143,7 +141,7 @@ service 產生後的初始狀態就是這樣，帶有 @Injectable 的 class，�
 
 所以非同步行為的測試撰寫要特別注意，偏偏網頁前端通常都有大量的非同步行為，要撰寫針對非同步行為來寫測試的這種情形一定會常常遇到
 
-### 非同步行為的測試有一個 **雷**
+### 非同步行為的測試有一個 **雷** ！？
 
 這裡把測試項目中的 done() 給拿掉，並且連測試函式的參數 `done: DoneFn` 都不放
 
@@ -162,7 +160,7 @@ service 產生後的初始狀態就是這樣，帶有 @Injectable 的 class，�
 
 測試居然綠油油的通過了！？
 
-等等等，仔細看一下瀏覽器上顯示的文字
+等等等，仔細看一下瀏覽器上那一列顯示的文字
 
 ![](https://i.imgur.com/GgDacB1.png)
 
@@ -172,8 +170,8 @@ service 產生後的初始狀態就是這樣，帶有 @Injectable 的 class，�
 
 今天只簡單的對最基本會使用的 method 來撰寫測試，回顧一下今天這篇文的一些重點
 
-* 測試 service 要先用 TestBed 來 inject 取得 service 測試實體
-* 測試撰寫遇到同步行為時很一般，但有非同步行為時要記得告知測試執行 done() 來結束測試，否則會 timeout 測試失敗
+* 測試 service 要先用 TestBed 來 inject 取得 service 測試用的服務實體
+* 對同步行為的 function 撰寫測試時就很一般逐行寫上測試需求，最後斷言，但對到有非同步行為的 function 時要記得在非同步回傳值後告知測試執行 done() 來結束測試，否則會 timeout 測試失敗
 * 要注意 `SPEC HAS NO EXPECTATIONS` 這個關鍵字，雖然是測試項目列顯示是綠色的，但這可是無效的測試無誤
 
 下一篇還是寫對 service 進行測試，是關於有依賴的 service，有時會需要將依賴給隔離而用到 spy，為了讓單元測試能夠獨立執行而不會被其他依賴干擾所使用的技巧
