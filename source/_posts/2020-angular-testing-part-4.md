@@ -11,7 +11,7 @@ tags:
 cover: https://angular.tw/assets/images/logos/angular/angular.svg
 ---
 
-Hi，大家好，我的前一篇文章簡單的敘述了 Angular 的 Service 服務，並且 `ng generate service Value` 來產生一個 value.service.ts，並為它加上了一些 method，有同步的，非同步的 Observable 以及 Promise 共三種來進行測試，今天會延續上一次的程式來了解有依賴的 service，以及將依賴給隔離所使用到的 spy 技巧.
+Hi，大家好，我的前一篇文章簡單的敘述了 Angular 的 Service 服務，並且 `ng generate service Value` 來產生一個 value.service.ts，並為它加上了一些 method，有同步的，非同步的 Observable 以及 Promise 共三種來進行測試，今天會延續上一次的程式來了解有依賴的 service，以及將依賴給隔離所使用到的 spy 技巧
 
 ---
 
