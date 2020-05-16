@@ -15,11 +15,11 @@ page:
   articles: 文章總覽
   tag: 標籤
   category: 分類
-  archives: 時間軸
+  archives: 文章總覽
 
 sticky: 置頂
 no_title: 無題
-archives: 時間軸
+archives: 文章總覽
 
 post:
   created: 發表於
