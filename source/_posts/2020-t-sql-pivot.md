@@ -24,9 +24,9 @@ Hi，大家好，最近在工作上玩 T-SQL，正巧遇到需要將一列一列
 
 ## 建立 #TempTable 的示範資料
 
-在 Microsoft Docs 的文檔中，這個技巧稱為 [暫存資料表](https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15#temporary-tables)，詳細可以點連結進去看看，文檔超詳細說明了暫存資料表的細節
+在 Microsoft Docs 的文檔中，`CREATE TABLE #table` 這個技巧稱為 [暫存資料表](https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15#temporary-tables)，詳細可以點連結進去看看，文檔超詳細說明了暫存資料表的細節
 
-這邊寫的 SQL 程式碼就是利用 `CREATE TABLE #table` 來建立暫存資料表，並且在執行完需求動作馬上 `DROP TABLE`，如果沒有 DROP，這個 #table 會在中斷連接時清除
+這邊寫的 SQL 程式碼就是利用 `CREATE TABLE #table` 來建立暫存資料表，並且在執行完動作馬上 `DROP TABLE`，如果沒有 DROP，這個 #table 則會在中斷連接時清除，在這裡是為了讓每次執行 SQL 都有一個乾淨 table 來呈現，所以都有用 DROP
 
 ```sql=
 CREATE TABLE #table (
@@ -37,13 +37,17 @@ CREATE TABLE #table (
 
 INSERT INTO #table (Name, Value)
 	VALUES ('1001', '32'), ('1002', '14'), ('1003', '48.3'), ('1004', '7'), ('1005', '46')
+    
+----------
 
 SELECT * FROM #table
+
+----------
 
 DROP TABLE #table
 ```
 
-本次要拿來玩的資料就這樣
+本次要拿來玩的資料就長這樣
 
 ![](https://i.imgur.com/GbM5MS4.png)
 
@@ -64,6 +68,8 @@ CREATE TABLE #table (
 
 INSERT INTO #table (Name, Value)
 	VALUES ('1001', '32'), ('1002', '14'), ('1003', '48.3'), ('1004', '7'), ('1005', '46')
+    
+----------
 
 SELECT  [1001], [1002], [1003], [1004], [1005] FROM (
 	SELECT Name, Value
@@ -74,6 +80,8 @@ PIVOT
 	MAX(Value)
 	FOR Name IN ([1001], [1002], [1003], [1004], [1005])
 ) AS PivotTable
+
+----------
 
 DROP TABLE #table
 ```
@@ -87,6 +95,8 @@ DROP TABLE #table
 結果如下，輕輕鬆鬆就能達成旋轉資料囉
 
 ![](https://i.imgur.com/Zb7hRic.png)
+
+---
 
 ## 特別加映，動態 PIVOT，使用 `EXEC sp_executesql`
 
@@ -105,6 +115,8 @@ CREATE TABLE #table (
 
 INSERT INTO #table (Name, Value)
 	VALUES ('1001', '32'), ('1002', '14'), ('1003', '48.3'), ('1004', '7'), ('1005', '46')
+    
+----------
 
 DECLARE @ColumnGroup NVARCHAR(200) = '[1001], [1002], [1003], [1006]'
 DECLARE @PivotSQL NVARCHAR(MAX)
@@ -122,6 +134,8 @@ SET @PivotSQL = N'
 '
 
 EXEC sp_executesql @PivotSQL
+
+----------
 
 DROP TABLE #table
 ```
