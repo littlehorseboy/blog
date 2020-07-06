@@ -1,5 +1,5 @@
 ---
-title: learnyounode (Exercise 6, 7 of 13)
+title: learnyounode（Exercise 6 - 模組化，Exercise 7 - HTTP 客戶端）
 date: 2020-04-04 15:56:21
 categories:
 - w3HexSchool

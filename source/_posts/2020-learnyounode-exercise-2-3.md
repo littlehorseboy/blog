@@ -1,5 +1,5 @@
 ---
-title: learnyounode (Exercise 2, 3 of 13)
+title: learnyounode（Exercise 2 - 印出命令列參數總和，Exercise 3 - 檔案輸入/輸出）
 date: 2020-03-21 09:18:35
 categories:
 - w3HexSchool

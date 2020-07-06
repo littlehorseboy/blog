@@ -1,5 +1,5 @@
 ---
-title: learnyounode (Exercise 1 of 13)
+title: learnyounode（Exercise 1 - HELLO WORLD）
 date: 2020-03-13 22:16:45
 categories:
 - w3HexSchool
