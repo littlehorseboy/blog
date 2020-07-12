@@ -22,15 +22,15 @@ OPENJSON 大多會搭配 WITH 子句來使用（稍後會使用到），如果�
 
 1. key: 物件屬性名稱
 2. value: 值
-3. type: 類型，目前確認有這幾種
+3. type: 類型
+   * 0 -> null
    * 1 -> String
    * 2 -> Number
    * 3 -> Boolean
    * 4 -> Array
    * 5 -> Object
-   * 0 -> NULL
    
-   關於類型的定義有待考證，看起來是隨 JSON 值的型態不同而產生的數字，不過筆者沒有查到更詳細的說明 XD
+   類型是隨 JSON 值的型態不同而產生的數字，詳情可以看到 [官方文檔](https://docs.microsoft.com/zh-tw/sql/t-sql/functions/openjson-transact-sql?view=sql-server-ver15#return-value) 有對傳回值做詳細說明
    
 ### 使用 OPENJSON 剖析轉換 JSON
 
