@@ -60,11 +60,11 @@ SELECT JSON_VALUE(@json, '$.name')            AS Name,
 
 ![](https://i.imgur.com/bXFcexF.png)
 
-arrayValue 及 objectValue 因為是 JSON
+arrayValue 及 objectValue 的值分別是 `[1, 2, 3]`、`{ "obj": "objString" }`
 
-所以用 JSON_VALUE 取會得到 NULL
+因為是 JSON，所以用 JSON_VALUE 取會得到 NULL
 
-想要取得 JSON 得使用 JSON_QUERY 才是正確的方式
+如果想要取得 JSON 得使用 JSON_QUERY 才是正確的方式
 
 ---
 
@@ -93,7 +93,7 @@ SELECT JSON_VALUE(@json, '$.name')            AS Name,
        JSON_VALUE(@json, '$.objectValue.obj') AS Obj
 ```
 
-這裡把 arrayValue 及 objectValue 改成用 JSON_QUERY 取值，就能看到 JSON 物件或陣列
+這裡把擷取 arrayValue 及 objectValue 的函式改成用 JSON_QUERY 取值，就能得到 JSON 物件或陣列
 
 ## SELECT 結果
 
@@ -147,7 +147,7 @@ PRINT JSON_MODIFY(@json, '$.objectValue.obj', 'newValue');
 
 <img src="https://i.imgur.com/PW4tyYl.png" style="border: 1px solid #ccc">
 
-## 如果改動多次，得 SET 回變數
+## 如果要保留每次的改動，得 SET 回變數
 
 前幾個使用 JSON_MODIFY 後可以發現到使用該函式是會回傳新的物件
 
