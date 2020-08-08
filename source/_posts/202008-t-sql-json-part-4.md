@@ -12,7 +12,7 @@ cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
 
 Hi，大家好，在前篇文 [T-SQL OPENJSON - 搭配 OPENJSON 實作新增資料或修改資料](https://littlehorseboy.github.io/2020/07/26/202007-t-sql-json-part-3/) 中，使用了 INSERT 或 UPDATE，個別的比對 OPENJSON 轉換的 JSON 來分別進行新增或修改
 
-在本篇要利用 MERGE 將上述的個別比對，個別進行新增或修改這些程式給合成一句
+在本篇要利用 MERGE 將上述的個別比對，然後個別進行新增或修改的這些程式給合成一句
 
 ---
 
