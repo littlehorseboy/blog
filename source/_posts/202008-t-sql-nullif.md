@@ -1,5 +1,5 @@
 ---
-title: T-SQL NULLIF，比對如果相符合就回你一個 NULL 的函式
+title: T-SQL NULLIF - 比對如果相符合就回你一個 NULL 的函式
 date: 2020-08-16 20:22:38
 categories:
 - w3HexSchool
