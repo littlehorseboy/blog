@@ -1,5 +1,5 @@
 ---
-title: 讀書筆記 - UML 物件導向系統分析與設計（Part 1）
+title: 讀書筆記 - UML 物件導向系統分析與設計（Part 1） RUP 開發方法論與 UML
 date: 2020-08-23 20:35:38
 categories:
 - w3HexSchool
