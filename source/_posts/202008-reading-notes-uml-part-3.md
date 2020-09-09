@@ -1,7 +1,7 @@
 ---
 title: 讀書筆記 - UML 物件導向系統分析與設計（Part 3） 使用案例圖 - 上
 date: 2020-09-06 22:48:25
-ategories:
+categories:
 - w3HexSchool
 - UML
 tags:
