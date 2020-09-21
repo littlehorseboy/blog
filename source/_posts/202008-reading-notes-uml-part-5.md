@@ -31,68 +31,101 @@ Hi，大家好，本篇文紀錄 [UML 物件導向系統分析與設計](https:/
 
 ### 活動起始節點（Activity Start）
 
+代表一個活動的開始
+
 ![](https://i.imgur.com/F6mVB3r.png)
 
 ### 活動終止節點（Activity Final）
+
+代表一個活動的結束
 
 ![](https://i.imgur.com/ztVOurN.png)
 
 ### 動作（Action）節點
 
+表示所執行的動作，一序列的動作稱為活動
+
 ![](https://i.imgur.com/SYjgjoe.png)
 
 ### 控制流程（Control Flow）
+
+表示一個動作到另一個動作的流向
 
 ![](https://i.imgur.com/kk8dwMB.png)
 
 ### 物件流程（Object Flow）
 
+動作旁邊加上小方塊表示此動作是輸出還是輸入物件
+
 ![](https://i.imgur.com/vXJadF5.png)
 
 ### 分岔（Fork）節點
+
+接續的動作分成兩個以上同步進行的動作
 
 ![](https://i.imgur.com/qVdWN4K.png)
 
 ### 結合（Join）節點
 
+等所有的動作都完成了，才會繼續執行接下來的動作
+
 ![](https://i.imgur.com/oQWyYr1.png)
 
 ### 決策 / 合併節點（Decision/Merge）
+
+一個進入的流向，而後有兩個以上離開的流向可以選
 
 ![](https://i.imgur.com/9KaZZx8.png)
 
 ### 物件（Object）節點
 
+表示活動是輸入資料還是輸出資料
+
 ![](https://i.imgur.com/gIpM05S.png)
 
 ### 送出訊號（Sending Signal）
+
+事件發生所產生的訊號
 
 ![](https://i.imgur.com/MfJg2Kr.png)
 
 ### 接收訊號（Receiving Signal）
 
+一個動作的執行是因為接收了什麼樣的事件
+
 ![](https://i.imgur.com/PaSfA50.png)
 
 ### 流程終止（Flow Final）節點
+
+流程的結束
 
 ![](https://i.imgur.com/KdXZk1h.png)
 
 ### 動作之前置條件 / 後置條件
 
+動作發生前或是發生後所需滿足的條件
+
 ![](https://i.imgur.com/uvFWHF9.png)
 
 ### 時間訊號（Time Signal）
+
+時間，像是排程的應用
 
 ![](https://i.imgur.com/wRQbkCS.png)
 
 ### 可中斷區（Interrupted Activity Region）
 
+區域內的動作可能被中斷
+
 ![](https://i.imgur.com/xDNMOh5.png)
 
-### ~~連結器（Connector）~~
+### ~~中斷~~（Interrupting Edge）
 
-### ~~中斷（Interrupting Edge）~~
+表示中斷活動後的流向
 
+### ~~連結器~~（Connector）
+
+連結不連續的流向
 
 ---
 
