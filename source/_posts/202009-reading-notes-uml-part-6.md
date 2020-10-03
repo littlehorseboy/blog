@@ -1,5 +1,5 @@
 ---
-title: 讀書筆記 - UML 物件導向系統分析與設計（Part 6） 類別圖
+title: 讀書筆記 - UML 物件導向系統分析與設計（Part 6） 類別圖 - 上
 date: 2020-09-27 20:38:55
 categories:
 - w3HexSchool
@@ -33,6 +33,8 @@ Hi，大家好，本篇文紀錄 [UML 物件導向系統分析與設計](https:/
 ![](https://i.imgur.com/yd5Hlq0.png)
 
 ## 8.2.5 操作
+
+![](https://i.imgur.com/Ydzd6Pf.png)
 
 三種基本型態的操作
 
