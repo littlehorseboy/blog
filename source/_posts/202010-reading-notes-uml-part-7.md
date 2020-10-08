@@ -45,12 +45,25 @@ Hi，大家好，本篇文紀錄 [UML 物件導向系統分析與設計](https:/
 
 ---
 
-## 一般化
+## 一般化（Generalization）
 
 一般化關係在程式語言中是用 extends 來表示
 
 ![](https://i.imgur.com/JKEkILl.png)
 
+---
+
+## 相依（Dependency）
+
+![](https://i.imgur.com/FG0ndDY.png)
+
+---
+
+## 具體化（Realization）
+
+一般化關係在程式語言中是用 implement 來表示
+
+![](https://i.imgur.com/K9dqauZ.png)
 ---
 
 ## 參考來源
