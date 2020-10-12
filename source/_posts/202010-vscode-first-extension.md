@@ -70,7 +70,7 @@ onCommand 代表的是 VSCode 執行指令時觸發
 
 #### contributes
 
-VSCode 執行的指令，Ctrl + Shift + P 然後輸入 title 的內容 Hello World 就可以執行主程式
+聲明 VSCode 執行的指令，之後用 Ctrl + Shift + P 然後輸入 title 的內容 Hello World 就可以執行主程式
 
 ---
 
