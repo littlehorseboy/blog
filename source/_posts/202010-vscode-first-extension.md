@@ -1,5 +1,5 @@
 ---
-title: VSCode - 做一個屬於你自己的擴充套件（Extension） - Hello World
+title: VSCode - 從 Hello World 開始，自己做一個 VSCode 擴充套件（Extension）
 date: 2020-10-11 17:28:40
 categories:
 - w3HexSchool
