@@ -50,10 +50,18 @@ WHERE Salary >= 30000
 -- WHERE Salary >= 30000
 ```
 
+---
+
 ## 指令種類
 
-### DDL
+### 資料定義語言 DDL（Data Definition Language）
 
-### DML
+新增、修改、刪除資料庫物件，資料庫物件有：資料表、檢視表、索引、預存程序、函數、觸發程序等
 
-### DCL
+### 資料操作語言 DML（Data Manipulation Language）
+
+針對資料表的指令，用來新增、修改、刪除，還有查詢資料表的資料，指令：INSERT、UPDATE、DELETE、SELECT
+
+### 資料控制語言 DCL（Data Control Language）
+
+資料庫安全管理的權限設定，指令：GRANT、DENY、REVOKE 等等
