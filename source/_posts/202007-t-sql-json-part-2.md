@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，前陣子寫了一篇 T-SQL 使用 OPENJSON 函式，可以將 JSON 當成資料表來使用的文章（[T-SQL OPENJSON，想不到能直接用 SQL 來處理 JSON](https://littlehorseboy.github.io/2020/06/28/2020-t-sql-json-part-1/)），這次要介紹一些也是處理 JSON 的 T-SQL 函式，可以用來直接擷取 JSON 的某個 property 的值，或是變更 property 的值

@@ -9,7 +9,7 @@ tags:
 - C#
 - Visual Studio
 - Unit Test
-cover: https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/225px-C_Sharp_wordmark.svg.png
 ---
 
 Hi，大家好，我是小馬彬，單元測試能夠使你對你寫的程式碼更有信心，像遇到需求變更，或是維護解 bug 時，已經撰寫好的單元測試就能夠在你更動程式碼時，幫助了解有沒有改壞東西，不過撰寫『好的』或是『完備的』單元測試，絕對是需要一番勤學苦練的。

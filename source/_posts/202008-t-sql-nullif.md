@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，這次要介紹一個在 T-SQL 上的函式，就先直接來看看範例

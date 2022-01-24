@@ -7,7 +7,7 @@ categories:
 tags:
 - nuxt
 - serverMiddleware
-cover: https://nuxtjs.org/logos/nuxt.svg
+cover: https://nuxtjs.org/design-kit/colored-logo.svg
 ---
 
 Hi，大家好，我是小馬彬，最近在公司都在玩 Nuxt.js，其實得說大部分的需求在官方文檔上都能找到解方，主要要區分好組件生命週期是後端渲染的部分還是前端渲染的部分，不過這次會寫這篇的主要目的就是因為標題上的敘述

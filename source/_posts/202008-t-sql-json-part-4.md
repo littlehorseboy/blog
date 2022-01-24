@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，在前篇文 [T-SQL OPENJSON - 搭配 OPENJSON 實作新增資料或修改資料](https://littlehorseboy.github.io/2020/07/26/202007-t-sql-json-part-3/) 中，使用了 INSERT 或 UPDATE，個別的比對 OPENJSON 轉換的 JSON 來分別進行新增或修改

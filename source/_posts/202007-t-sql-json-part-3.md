@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，最近都在大玩特玩 T-SQL，如果網頁開發的模式是前後端分離時，那要對資料庫做新增或修改，前端會把一整包 JSON 丟給後端 API，後端再想辦法用程式來解析這包 JSON ，最後組成 SQL 指令丟給 SQL 服務進行執行

@@ -9,7 +9,7 @@ tags:
 - C#
 - Visual Studio
 - Unit Test
-cover: https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/225px-C_Sharp_wordmark.svg.png
 ---
 
 Hi，大家好，我是小馬彬，今天要將 `Microsoft.VisualStudio.TestTools.UnitTesting` 的 Assert 所提供的 method 逐個來玩玩，首先要開啟測試專案，直接建一個 TestClass 來實驗，如果不知道如何建立 MSTest 測試專案，可以到我的上一篇文章看看 [C#，又來找你玩了！ - MSTest 測試專案初體驗](https://littlehorseboy.github.io/2020/03/01/2020-csharp-VisualStudio-MSTest/)，那麼就直接開始逐個了解

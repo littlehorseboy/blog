@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，本篇紀錄 T-SQL 最基本的語法的解析

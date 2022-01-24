@@ -8,7 +8,7 @@ tags:
 - w3HexSchool
 - C#
 - Visual Studio
-cover: https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/225px-C_Sharp_wordmark.svg.png
 ---
 
 Hi，大家好，我是小馬彬，最近心血來潮的想要重溫 C#，想想過去在開發 ASP.NET MVC 網站時都是硬幹，新建專案，跟著專案架構亂打一通，有問題就 google 找到解就貼上去，也不管那些解到底使用了什麼樣的核心模組，所以一整個網站中有非常多程式碼是在不清不楚，但是可以 run 的狀況下完成的，這樣說起來好像很危險 XD，留下了一堆不明不白，不過其實算是依靠 C# 強型別的特性，以及 IDE 的強大，穩定性應該還是有的，只是可讀性以及日後如果要維護去修改時，一定會很容易改 A 壞 B，最近重新拜讀了 SOLID，加上這幾年在寫 JS 的模組化也算小有心得，毅然決然地想要把過去搞得很不順手的 C# 給重新研究一番

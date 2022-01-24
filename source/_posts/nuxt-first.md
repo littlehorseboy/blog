@@ -7,7 +7,7 @@ categories:
 tags:
 - nuxt
 - github pages
-cover: https://nuxtjs.org/logos/nuxt.svg
+cover: https://nuxtjs.org/design-kit/colored-logo.svg
 ---
 
 因為工作上的需要，開發開始研究 nuxt ssr

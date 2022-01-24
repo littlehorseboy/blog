@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，之前有寫過一篇用 NULLIF（[文章連結在此](https://littlehorseboy.github.io/2020/08/16/202008-t-sql-nullif/)） 來處理 NULL 情況的文章，這次要介紹另一種也是在 T-SQL 上處理 NULL 情況的函式，就先直接來看看範例

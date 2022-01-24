@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，最近玩 T-SQL 用到了很特別的 OPENJSON 函式，以往處理 JSON 都會在前後端解決，想不到 SQL 能利用 OPENJSON 函式直接把 JSON 當成一個資料表來存取

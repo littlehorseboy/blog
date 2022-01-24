@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - T-SQL
-cover: https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg
+cover: https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg
 ---
 
 Hi，大家好，最近在玩 T-SQL，如果是要讓一次執行中的多種的 INSERT、UPDATE、DELETE 語法能在其中任何一種發生錯誤時，就全部退回去，將資料回復成原樣，這時就可以用交易（TRANSACTION）的功能，讓執行的語法全部成功會正常寫入或一有失敗就沒改變任何資料，TRANSACTION 可以滿足 ACID 的規範（**不可分割性**、**一致性**、**隔離性**、**持久性**）
