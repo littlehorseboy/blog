@@ -244,7 +244,7 @@ ICP:
 baidu_analytics:
 
 # Google Analytics
-google_analytics: 342874898
+google_analytics: G-WZGV3XB0XF
 
 # Tencent_analytics ID
 tencent_analytics:
@@ -453,7 +453,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 一個菜鳥工程師的踩坑札記
+    - 一個打雜工程師的踩坑札記
 
 ####    側邊欄    ####
 #-------------------------------------
