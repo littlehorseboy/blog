@@ -9,7 +9,7 @@ tags:
 - w3HexSchool
 - VSCode
 - Extension
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/330px-Visual_Studio_Code_1.35_icon.svg.png
 ---
 
 Hi，大家好，最近心血來潮的想做一個程式碼格式化的工具，要針對 SQL 來做處理，格式化的需求想要能完全按照自己的特殊習慣來調整

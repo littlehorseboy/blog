@@ -282,7 +282,7 @@ Flink:
   name: Blog 名字： 小馬彬
   address: Blog 地址： https://littlehorseboy.github.io/
   avatar: Blog 頭像： https://avatars0.githubusercontent.com/u/16015679
-  info: Blog 簡介： 邁向 JS 全端之路
+  info: Blog 簡介： 邁向全端工程師之路
   comment: 如果需要交換友鏈，請留言
 
 # 打賞按鈕
@@ -453,7 +453,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 一個打雜工程師的踩坑札記
+    - 打雜工程師的踩坑紀錄
 
 ####    側邊欄    ####
 #-------------------------------------

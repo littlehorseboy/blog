@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - node.js
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
+cover: https://avatars.githubusercontent.com/u/9950313?s=200&amp;v=4
 ---
 
 Hi，大家好，最近遇到一個需求

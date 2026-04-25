@@ -8,7 +8,7 @@ tags:
 - w3HexSchool
 - node.js
 - learnyounode
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
+cover: https://avatars.githubusercontent.com/u/9950313?s=200&amp;v=4
 ---
 
 Hi，大家好，我是小馬彬，清明時節也要來繼續學習 Node.js，筆者挑選的練習素材為 [NODESCHOOL](https://nodeschool.io/zh-tw/) 網站中的 learnyounode 所提供的題目，期望利用它來了解更多關於 Node.js 的基礎應用，如果不知道練習素材的題目是怎麼得來的朋友們，可以到我這系列的第一篇文章 [learnyounode (Exercise 1 of 13)](https://littlehorseboy.github.io/2020/03/13/2020-learnyounode-exercise-1/) 看看

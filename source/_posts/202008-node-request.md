@@ -7,7 +7,7 @@ categories:
 tags:
 - w3HexSchool
 - node.js
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
+cover: https://avatars.githubusercontent.com/u/9950313?s=200&amp;v=4
 ---
 
 Hi，大家好，這篇想要紀錄如何用 Node.js 的核心模組 http 來發送 request，http 模組有個 property 是名為 request 的 function，`http.request()`，可以用它來發送請求，並從其它網站取得需要的各種資料

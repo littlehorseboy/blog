@@ -8,7 +8,7 @@ tags:
 - w3HexSchool
 - node.js
 - learnyounode
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
+cover: https://avatars.githubusercontent.com/u/9950313?s=200&amp;v=4
 ---
 
 Hi，大家好，今天要來解 Node.js 的練習題，題目來源為 [NODESCHOOL](https://nodeschool.io/zh-tw/) 的 [learnyounode](https://github.com/workshopper/learnyounode)，期望透過解題來了解更多關於 Node.js 的基礎應用知識

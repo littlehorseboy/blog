@@ -8,7 +8,7 @@ tags:
 - w3HexSchool
 - node.js
 - learnyounode
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png
+cover: https://avatars.githubusercontent.com/u/9950313?s=200&amp;v=4
 ---
 
 Hi，大家好，我是小馬彬，最近想要把 Node.js 的應用知識給補起來，本來想要買一本中文書，不過查了查博X來發現好像沒有喜歡的，應該說真的用了關鍵字查到想買的是 2016 年出版的 XD，不過因為版本更迭應該差蠻多的，毅然決然地開始尋找其他資源，最後就在 Node.js 的官方網站上發現這個

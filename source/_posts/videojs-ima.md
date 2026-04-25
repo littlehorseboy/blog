@@ -7,7 +7,7 @@ categories:
 tags:
 - google
 - video
-cover: https://videojs.com/static/logo-black-42d8f872f22e8519211292ea3ede0aa1.svg
+cover: https://avatars.githubusercontent.com/u/3287189?s=200&amp;v=4
 ---
 
 # videojs-ima 是用來讓播放器能方便引入 google 圖片或影片的廣告的函式庫
